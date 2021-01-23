@@ -31,7 +31,7 @@ To train models through AutoML i followed following steps
       ![votingensamble model](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/votingensamble.png "Best model: votingensamble model")
 
   * The votingEnsamble model is then deployed using Azure Container Instance with authentication enabled. 
-      ![deploying best model.png](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/sayed_cluster.png "deploying best model")     
+      ![deploying best model.png](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/deploying best model.png "deploying best model")     
 
 
 ### Step 3: Enable Logging
