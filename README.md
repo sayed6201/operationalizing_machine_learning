@@ -17,7 +17,7 @@ To train models through AutoML i followed following steps
       ![Dataset registered](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/sayed_dataset_registered.PNG "Dataset registered")
 
   * Secondly, I created compute cluster. The configuration of the compute cluster can be seen from the screenshot below.
-      ![Dataset registered](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/sayed_cluster.png "Dataset registered")
+      ![Compute Cluster Configuration](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/sayed_cluster.png "Compute Cluster Configurationd")
 
   * Thridly, I trained a number of model with AutoML. The screenshot below shows successful completion of the AutoMl Experiment.
       ![Automl Completed](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/automl_completed.png "Automl Completed")
@@ -27,9 +27,8 @@ To train models through AutoML i followed following steps
 
 
 ### Step 2: Deploying The Best Model
-To train models through AutoML i followed following steps
-  * Firstly, I registered the dataset into the Azure ML Studio from the URI. The screenshot below shows the registered dataset.
-      ![Dataset registered](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/sayed_dataset_registered.PNG "Dataset registered")
+  * The best model was  VotingEnsamble model which had accuracy of 92%. Some details of the model can be viewed in the screenshot below
+      ![votingensamble model](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/votingensamble.png "Best model: votingensamble model")
 
   * Secondly, I created compute cluster. The configuration of the compute cluster can be seen from the screenshot below.
       ![Dataset registered](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/sayed_cluster.png "Dataset registered")
