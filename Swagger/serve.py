@@ -35,6 +35,6 @@ if __name__ == "__main__":
         # Allows the port to be passed in as an argument
         port = sys.argv[-1]
     else:
-        port = 8000
+        port = 8080
 
     test(CORSRequestHandler, HTTPServer, port=port)
