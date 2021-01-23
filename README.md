@@ -11,7 +11,7 @@ This project is a part of the Udacity Azure ML Nanodegree. The Machine Learning 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
 
-###Step1:Automated Machine Learning Experiment
+###Step 1: Automated Machine Learning Experiment
 To train models through AutoML i followed following steps
   * Firstly, I registered the dataset into the Azure ML Studio from the URI. The screenshot below shows the registered dataset.
       ![Dataset registered](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/sayed_dataset_registered.PNG "Dataset registered")
@@ -20,7 +20,27 @@ To train models through AutoML i followed following steps
       ![Dataset registered](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/sayed_cluster.png "Dataset registered")
 
   * Thridly, I trained a number of model with AutoML. The screenshot below shows successful completion of the AutoMl Experiment.
-      ![Dataset registered](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/automl_completed.png "Dataset registered")
+      ![Automl Completed](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/automl_completed.png "Automl Completed")
+
+    The screenshot below shows top 11 models with higest accuracy. VotingEnsamble model had the higest accuracy of all
+      ![Automl Models](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/automl_models.png "Automl Models")
+
+
+###Step 2: Deploying The Best Model
+To train models through AutoML i followed following steps
+  * Firstly, I registered the dataset into the Azure ML Studio from the URI. The screenshot below shows the registered dataset.
+      ![Dataset registered](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/sayed_dataset_registered.PNG "Dataset registered")
+
+  * Secondly, I created compute cluster. The configuration of the compute cluster can be seen from the screenshot below.
+      ![Dataset registered](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/sayed_cluster.png "Dataset registered")
+
+  * Thridly, I trained a number of model with AutoML. The screenshot below shows successful completion of the AutoMl Experiment.
+      ![Automl Completed](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/automl_completed.png "Automl Completed")
+
+    The screenshot below shows top 11 models with higest accuracy. VotingEnsamble model had the higest accuracy of all
+      ![Automl Models](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/automl_models.png "Automl Models")
+     
+
 
 
 
