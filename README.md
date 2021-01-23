@@ -11,7 +11,7 @@ This project is a part of the Udacity Azure ML Nanodegree. The Machine Learning 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
 
-###Step 1: Automated Machine Learning Experiment
+### Step 1: Automated Machine Learning Experiment
 To train models through AutoML i followed following steps
   * Firstly, I registered the dataset into the Azure ML Studio from the URI. The screenshot below shows the registered dataset.
       ![Dataset registered](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/sayed_dataset_registered.PNG "Dataset registered")
@@ -26,7 +26,7 @@ To train models through AutoML i followed following steps
       ![Automl Models](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/automl_models.png "Automl Models")
 
 
-###Step 2: Deploying The Best Model
+### Step 2: Deploying The Best Model
 To train models through AutoML i followed following steps
   * Firstly, I registered the dataset into the Azure ML Studio from the URI. The screenshot below shows the registered dataset.
       ![Dataset registered](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/sayed_dataset_registered.PNG "Dataset registered")
