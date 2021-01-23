@@ -30,16 +30,22 @@ To train models through AutoML i followed following steps
   * The best model was  VotingEnsamble model which had accuracy of 92%. Some details of the model can be viewed in the screenshot below
       ![votingensamble model](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/votingensamble.png "Best model: votingensamble model")
 
-  * Secondly, I created compute cluster. The configuration of the compute cluster can be seen from the screenshot below.
-      ![Dataset registered](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/sayed_cluster.png "Dataset registered")
+  * The votingEnsamble model is then deployed using Azure Container Instance with authentication enabled. 
+      ![deploying best model.png](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/sayed_cluster.png "deploying best model")     
+
+
+### Step 3: Enable Logging
+  * The best model was  VotingEnsamble model which had accuracy of 92%. Some details of the model can be viewed in the screenshot below
+      ![votingensamble model](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/votingensamble.png "Best model: votingensamble model")
+
+  * The votingEnsamble model is then deployed using Azure Container Instance with authentication enabled. 
+      ![deploying best model.png](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/sayed_cluster.png "deploying best model")
 
   * Thridly, I trained a number of model with AutoML. The screenshot below shows successful completion of the AutoMl Experiment.
       ![Automl Completed](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/automl_completed.png "Automl Completed")
 
     The screenshot below shows top 11 models with higest accuracy. VotingEnsamble model had the higest accuracy of all
       ![Automl Models](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/automl_models.png "Automl Models")
-     
-
 
 
 
