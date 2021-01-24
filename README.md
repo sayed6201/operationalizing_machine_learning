@@ -27,19 +27,35 @@ To train models through AutoML i followed following steps
 
 
 ### Step 2: Deploying The Best Model
-  * The best model was  VotingEnsamble model which had accuracy of 92%. Some details of the model can be viewed in the screenshot below
+  * The best model was VotingEnsamble model which had accuracy of 92%. Some details of the model can be viewed in the screenshot below
       ![votingensamble model](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/votingensamble.png "Best model: votingensamble model")
 
-  * The votingEnsamble model is then deployed using Azure Container Instance with authentication enabled. 
-      ![deploying best model.png](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/deploying best model.png "deploying best model")     
+  * The votingEnsamble model was then deployed using Azure Container Instance with authentication enabled.
+      ![deploying best model.png](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/deploying_best_model.png "deploying best model")     
 
 
 ### Step 3: Enable Logging
-  * The best model was  VotingEnsamble model which had accuracy of 92%. Some details of the model can be viewed in the screenshot below
-      ![votingensamble model](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/votingensamble.png "Best model: votingensamble model")
+Through Azure Application insight the logging data of deployed model can be monitored. It comes in handy in detecting any failures or anomalies
 
-  * The votingEnsamble model is then deployed using Azure Container Instance with authentication enabled. 
-      ![deploying best model.png](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/sayed_cluster.png "deploying best model")
+  * Firstly, i edited the logs.py file and set application insight to true and then executed the python script
+      ![logs.py file](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/logs_py.png "Editing logs.py file")
+       
+      logs.py getting executed. 
+      ![logs.py executing](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/logs_execute.png "Editing logs.py file getting executed")
+
+  * After running the logs.py the Application insight got enabled in the Azure ML Studio.
+      ![application insight enabled](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/application_insight_enabled.PNG "application insight enabled")
+
+      ![application insight enabled](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/application insight enabled2.png "application insight monitoring")
+
+
+### Step 4: Swagger Documentation
+To train models through AutoML i followed following steps
+  * Firstly, I registered the dataset into the Azure ML Studio from the URI. The screenshot below shows the registered dataset.
+      ![Dataset registered](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/sayed_dataset_registered.PNG "Dataset registered")
+
+  * Secondly, I created compute cluster. The configuration of the compute cluster can be seen from the screenshot below.
+      ![Compute Cluster Configuration](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/sayed_cluster.png "Compute Cluster Configurationd")
 
   * Thridly, I trained a number of model with AutoML. The screenshot below shows successful completion of the AutoMl Experiment.
       ![Automl Completed](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/automl_completed.png "Automl Completed")
