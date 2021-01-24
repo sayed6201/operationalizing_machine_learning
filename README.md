@@ -51,8 +51,8 @@ Through Azure Application insight the logging data of deployed model can be moni
 
 ### Step 4: Swagger Documentation
 Swagger documentation is loaded in the localhost using swagger.json from the deployed model.
-      ![Swagger](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/swagger.PNG "Swagger")
-      ![Swagger](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/swagger2.PNG "Swagger")
+      ![Swagger](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/swagger.png "Swagger")
+      ![Swagger](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/swagger2.png "Swagger")
 
 
 ### Step 5: Consuming Model Endpoints
