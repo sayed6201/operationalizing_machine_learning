@@ -4,13 +4,14 @@
 This project is a part of the Udacity Azure ML Nanodegree. The Machine Learning project aims to predict if a client will subscribe to a term deposit of a Portuguese banking institution. [Bankmarketing Datset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) was used to train the models. The models were trained using AutoML and best Machine Learning model was deployed as an webservice to Azure Container Instance. Finally the process was automated by crearing and deploying a pipeline.
 
 
-
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+
+![diagram.PNG](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/diagram.PNG "Architectural Diagram")
+
+The models can be trained using 2 mathods oe ways, an Automated and non Automated ways. In the non automated (method 1) the model is trained using AutoML and then deployed. It does not automat the workflows. Whereas in the second method model is trained via a pipeline. Pipeline is an intedepdently executable workdlow of a complete Machine Learning task which enables external services to interact with it so that it can do work more efficiently. In this project model was trained using both methods. Best model was deployed as a webservice which allowed endpoints to intereact with it and get reponse. Then a pipeline was also created and pipeline enabled the exernal or enternal services to interact with it via HTTP API and trian the model.
+
 
 ## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
-
 ### Step 1: Automated Machine Learning Experiment
 To train models through AutoML i followed following steps
   * Firstly, I registered the dataset into the Azure ML Studio from the URI. The screenshot below shows the registered dataset.
