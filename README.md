@@ -50,20 +50,34 @@ Through Azure Application insight the logging data of deployed model can be moni
 
 
 ### Step 4: Swagger Documentation
-To train models through AutoML i followed following steps
-  * Firstly, I registered the dataset into the Azure ML Studio from the URI. The screenshot below shows the registered dataset.
-      ![Dataset registered](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/sayed_dataset_registered.PNG "Dataset registered")
-
-  * Secondly, I created compute cluster. The configuration of the compute cluster can be seen from the screenshot below.
-      ![Compute Cluster Configuration](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/sayed_cluster.png "Compute Cluster Configurationd")
-
-  * Thridly, I trained a number of model with AutoML. The screenshot below shows successful completion of the AutoMl Experiment.
-      ![Automl Completed](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/automl_completed.png "Automl Completed")
-
-    The screenshot below shows top 11 models with higest accuracy. VotingEnsamble model had the higest accuracy of all
-      ![Automl Models](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/automl_models.png "Automl Models")
+Swagger documentation is loaded in the localhost using swagger.json from the deployed model.
+      ![Swagger](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/swagger.PNG "Swagger")
+      ![Swagger](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/swagger2.PNG "Swagger")
 
 
+### Step 5: Consuming Model Endpoints
+
+  * Firstly, I edited the endpoint.py script with scoring_uri and key from the deployed model. The script sends HTTP request to the deployed model. The screenshot below shows endpoint.py script
+      ![Endpoint py](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/endpoint_py.png "Editing endpoint.py")
+
+  * After executing the endpoint.py script the model sends follwing resoins. 
+      ![Response from the deployed model](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/endpoint_py2.png "Compute Cluster Configurationd")
+
+  * Then i benchmarked the endpoint with Apache benchmark. 
+      ![benchmarking the endpoint](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/benchmark.png "benchmarking the endpoint")
+      
+      
+### Step 6: Create, Publish and Consume a Pipeline
+
+  * Firstly, I edited the endpoint.py script with scoring_uri and key from the deployed model. The script sends HTTP request to the deployed model. The screenshot below shows endpoint.py script
+      ![Endpoint py](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/endpoint_py.png "Editing endpoint.py")
+
+  * After executing the endpoint.py script the model sends follwing resoins. 
+      ![Response from the deployed model](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/endpoint_py2.png "Compute Cluster Configurationd")
+
+  * Then i benchmarked the endpoint with Apache benchmark. 
+      ![benchmarking the endpoint](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/benchmark.png "benchmarking the endpoint")
+      
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
