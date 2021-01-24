@@ -20,10 +20,10 @@ To train models through AutoML i followed following steps
   * Secondly, I created compute cluster. The configuration of the compute cluster can be seen from the screenshot below.
       ![Compute Cluster Configuration](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/sayed_cluster.png "Compute Cluster Configurationd")
 
-  * Thridly, I trained a number of model with AutoML. The screenshot below shows successful completion of the AutoMl Experiment.
+  * Thridly, I trained a number of models with AutoML. The screenshot below shows successful completion of the AutoML Experiment.
       ![Automl Completed](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/automl_completed.png "Automl Completed")
 
-    The screenshot below shows top 11 models with higest accuracy. VotingEnsamble model had the higest accuracy of all
+    The screenshot below shows top 11 models with the higest accuracy. VotingEnsamble model had the higest accuracy of all
       ![Automl Models](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/automl_models.png "Automl Models")
 
 
@@ -36,7 +36,7 @@ To train models through AutoML i followed following steps
 
 
 ### Step 3: Enable Logging
-Through Azure Application insight the logging data of deployed model can be monitored. It comes in handy in detecting any failures or anomalies
+Through Azure Application insight the logging data of deployed model can be monitored. It comes in handy in detecting any failure or anomalies
 
   * Firstly, i edited the logs.py file and set application insight to true and then executed the python script
       ![logs.py file](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/logs_py.png "Editing logs.py file")
@@ -61,7 +61,7 @@ Swagger documentation is loaded in the localhost using swagger.json from the dep
   * Firstly, I edited the endpoint.py script with scoring_uri and key from the deployed model. The script sends HTTP request to the deployed model. The screenshot below shows endpoint.py script
       ![Endpoint py](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/endpoint_py.png "Editing endpoint.py")
 
-  * After executing the endpoint.py script the model sends follwing resoins. 
+  * After executing the endpoint.py script the model sends follwing response. 
       ![Response from the deployed model](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/endpoint_py2.png "Compute Cluster Configurationd")
 
   * Then i benchmarked the endpoint with Apache benchmark. 
