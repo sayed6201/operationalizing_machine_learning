@@ -83,4 +83,4 @@ To automate the workflow we need to create and publish pipeline. Published pipel
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+To improve the performance further, the imbalance issue of the dataset can be resolved. Also AutoMl with deep learning may bring noteworthy improvement in the performance.
