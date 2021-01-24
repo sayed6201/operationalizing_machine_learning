@@ -68,15 +68,14 @@ Swagger documentation is loaded in the localhost using swagger.json from the dep
       
       
 ### Step 6: Create, Publish and Consume a Pipeline
+To automate the workflow we need to create and publish pipeline. Published pipelines allow external services to interact with them so that they can do work more efficiently.
 
-  * Firstly, I edited the endpoint.py script with scoring_uri and key from the deployed model. The script sends HTTP request to the deployed model. The screenshot below shows endpoint.py script
-      ![Endpoint py](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/endpoint_py.png "Editing endpoint.py")
+  * The following image shows successful completion of pipeline creation
+      ![Pipeline created](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/pipeline_creation.PNG "Pipeline created")
+      ![Pipeline created](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/pipeline_creation2.PNG "Pipeline created")
 
-  * After executing the endpoint.py script the model sends follwing resoins. 
-      ![Response from the deployed model](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/endpoint_py2.png "Compute Cluster Configurationd")
-
-  * Then i benchmarked the endpoint with Apache benchmark. 
-      ![benchmarking the endpoint](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/benchmark.png "benchmarking the endpoint")
+  * Finally the creted pipeline was published.
+      ![Pipeline published](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/pipeline_published.png "Pipeline published")
       
 
 ## Screen Recording
