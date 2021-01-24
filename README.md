@@ -46,7 +46,7 @@ Through Azure Application insight the logging data of deployed model can be moni
   * After running the logs.py the Application insight got enabled in the Azure ML Studio.
       ![application insight enabled](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/application_insight_enabled.PNG "application insight enabled")
 
-      ![application insight enabled](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/application insight enabled2.png "application insight monitoring")
+      ![application insight enabled](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/application_insight_enabled2.png "application insight monitoring")
 
 
 ### Step 4: Swagger Documentation
