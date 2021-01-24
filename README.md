@@ -1,7 +1,7 @@
 # Operationalizing Machine Learning Pipeline
 
 ## Summary
-This project is a part of the Udacity Azure ML Nanodegree. The Machine Learning project aims to predict if a client will subscribe to a term deposit of a Portuguese banking institution. [Bankmarketing Datset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) was used to train the models. The models were trained using AutoML and best Machine Learning model was deployed as an webservice to Azure Container Instance. Finally the process was automated by crearing and deploying a pipeline.
+This project is a part of the Udacity Azure ML Nanodegree. The Machine Learning project aims to predict if a client will subscribe to a term deposit of a Portuguese banking institution. [Bankmarketing Datset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) was used to train the models. The models were trained using AutoML and best Machine Learning model was deployed as an webservice to Azure Container Instance. Finally the process was automated by creating and deploying a pipeline.
 
 
 ## Architectural Diagram
@@ -80,7 +80,7 @@ To automate the workflow we need to create and publish pipeline. Published pipel
       
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+[ View screencast for this project](https://youtu.be/oNhvGtKkYpI)
 
 ## Standout Suggestions
 To improve the performance further, the imbalance issue of the dataset can be resolved. Also AutoMl with deep learning may bring noteworthy improvement in the performance.
