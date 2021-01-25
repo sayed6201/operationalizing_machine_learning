@@ -72,11 +72,17 @@ Swagger documentation is loaded in the localhost using swagger.json from the dep
 To automate the workflow we need to create and publish pipeline. Published pipelines allow external services to interact with them so that they can do work more efficiently.
 
   * The following image shows successful completion of pipeline creation
+      ![Pipeline created](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/pipeline_created_widget.png "Pipeline created")      
       ![Pipeline created](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/pipeline_creation.PNG "Pipeline created")
       ![Pipeline created](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/pipeline_creation2.PNG "Pipeline created")
 
-  * Finally the creted pipeline was published.
+  * Then, the creted pipeline was published.
       ![Pipeline published](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/pipeline_published.png "Pipeline published")
+
+  * Finally, the published pipeline rest endpoint was used to create new pipeline.
+      ![Pipeline created](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/pipeline_rest_endpoint_completed.PNG "Pipeline created via rest endpoint")
+      ![Pipeline created](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/pipeline_created_rest_endpoint.png "Pipeline created via rest endpoint")
+      ![Pipeline created](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/runwidget_rest_pipeline_completed.PNG "RunDetails Widget: Pipeline created via rest endpoint")
       
 
 ## Screen Recording
