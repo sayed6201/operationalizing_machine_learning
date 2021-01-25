@@ -72,7 +72,7 @@ Swagger documentation is loaded in the localhost using swagger.json from the dep
 To automate the workflow we need to create and publish pipeline. Published pipelines allow external services to interact with them so that they can do work more efficiently.
 
   * The following image shows successful completion of pipeline creation
-      ![Pipeline created](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/pipeline_created_widget.png "Pipeline created")      
+      ![Pipeline created](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/runwidget_pipeline_create1.PNG "RunDetails Widget: Pipeline created")      
       ![Pipeline created](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/pipeline_creation.PNG "Pipeline created")
       ![Pipeline created](https://github.com/sayed6201/operationalizing_machine_learning/blob/master/screenshots/pipeline_creation2.PNG "Pipeline created")
 
